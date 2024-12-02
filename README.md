@@ -21,3 +21,5 @@ To address these challenges, **Prottoy Health** is designed as a mobile applicat
 An application like Prottoy Health can significantly benefit Bangladesh by addressing gaps in healthcare accessibility and promoting early detection. It empowers individuals with knowledge about their health while alleviating the burden on the healthcare system.  
 
 Prottoy Health is a step toward a healthier future, enabling individuals to take proactive measures in disease prevention and management.
+
+![Prottoy Health](images/Prottoy%20Health_2.jpg)
