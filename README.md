@@ -22,4 +22,4 @@ An application like Prottoy Health can significantly benefit Bangladesh by addre
 
 Prottoy Health is a step toward a healthier future, enabling individuals to take proactive measures in disease prevention and management.
 
-![Prottoy Health](images/Prottoy%20Health_2.jpg)
+![Prottoy Health](images/Prottoy%Health_02.jpg)
