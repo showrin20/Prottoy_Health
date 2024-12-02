@@ -1,0 +1,143 @@
+{% extends 'main.html' %}
+{% load static %}
+
+
+{% block content %}
+<div class="min-vh-100 ">
+<div class="background py-5" style="background: url('{% static "images/bg2.jpg" %}') 100% 0 no-repeat;">
+<section class="container py-5" style="height: 600px;">
+
+    <div class="pt-5 pb-5 ">
+        <div>
+            <h1 class="dynamic-text">WELCOME TO</h1>
+            <h1 class="dynamic-text-2">PROTTOY <span class="text-success ">HEALTH</span></h1>
+            <h3 class="mt-4 h4">GET A CHECKUP OF YOUR CONDITION FOR FREE!</h3>
+            <a href="{% url 'signUp' %}" class="btn btn-lg btn-primary px-5 mt-3 btn-dynamic">Sign Up!</a>
+        </div>
+
+        
+        
+    </div>
+</section>
+<div>
+    <img class="med-img w-25 h-25 rounded-pill d-lg-block d-none" src="{% static 'images/Medical2.png' %}">
+</div>
+</div>
+
+<section class="bg-success h-50" >
+
+    <div class="pt-5 container pb-5 text-light">
+        <div class='row gx-5'>
+            <div class="col-lg-6">
+                <img class="w-100 h-100 rounded-pill img-fluid" height='100px' src="{% static 'images/Medical background.jpg' %}">
+            </div>
+            <div class="col-lg-6 px-5 py-5">
+                <h3 class="text-light h1">Did you know? </h3>
+                <p class="mt-4 h5 text-light text-capitalize ">People dies everyday.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-light h-50" >
+
+    <div class="pt-5 container pb-5 text-light">
+        <div class="row g-4">
+            <div class="col-md-12 col-lg-3 align-items-stretch">
+                <div class="card bg-light h-100">
+                    <div class="card-body text-center ">
+                        <h2 class="text-center">Bill Gates</h2>
+                        <img src="{% static 'images/billgates.jpg ' %}" alt='' class='rounded mb-3 w-100'/>
+                        <h5 class="card-title">Microsoft-Owner</h5>
+                        <p class="card-text">Parents named him gates but constantly stealing money from people by selling windows</p>
+                        <a href="">
+                            <i class="bi bi-facebook text-dark mx-1"></i>
+                        </a>
+                        <a href="">
+                            <i class="bi bi-instagram text-dark mx-1"></i>
+                        </a>
+                        <a href="">
+                            <i class="bi bi-twitter text-dark mx-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-lg-3 align-items-stretch">
+                <div class="card bg-light h-100">
+                    <div class="card-body text-center ">
+                        <h2 class="text-center">Bill Gates</h2>
+                        <img src="{% static 'images/billgates.jpg ' %}" alt='' class='rounded mb-3 w-100'/>
+                        <h5 class="card-title">Microsoft-Owner</h5>
+                        <p class="card-text">Parents named him gates but constantly stealing money from people by selling windows</p>
+                        <a href="">
+                            <i class="bi bi-facebook text-dark mx-1"></i>
+                        </a>
+                        <a href="">
+                            <i class="bi bi-instagram text-dark mx-1"></i>
+                        </a>
+                        <a href="">
+                            <i class="bi bi-twitter text-dark mx-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-3 align-items-stretch">
+                <div class="card bg-light h-100">
+                    <div class="card-body text-center">
+                        <h2 class="text-center">Jeff Bezos</h2>
+                        <img src="{% static 'images/jeff.png' %}" alt='' class=' rounded mb-3 w-100'>
+                        <h5 class="card-title">
+                            Former Owner of Amazon and hair.
+                        </h5>
+                        <p class="text-center">Guy believes money can't buy happiness,so, he never bought hair like elon musk</p>
+                        <a href="">
+                            <i class="bi bi-facebook text-dark mx-1"></i>
+                        </a>
+                        <a href="">
+                            <i class="bi bi-instagram text-dark mx-1"></i>
+                        </a>
+                        <a href="">
+                            <i class="bi bi-twitter text-dark mx-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-12 col-lg-3 align-items-stretch">
+                <div class="card bg-light h-100">
+                    <div class="card-body text-center h-100">
+                        <h2 class="text-center">Jeff Bezos</h2>
+                        <img src="{% static 'images/jeff.png' %}" alt='' class=' rounded mb-3 w-100'>
+                        <h5 class="card-title">
+                            Former Owner of Amazon and hair.
+                        </h5>
+                        <p class="text-center">Guy believes money can't buy happiness,so, he never bought hair</p>
+                        <a href="">
+                            <i class="bi bi-facebook text-dark mx-1"></i>
+                        </a>
+                        <a href="">
+                            <i class="bi bi-instagram text-dark mx-1"></i>
+                        </a>
+                        <a href="">
+                            <i class="bi bi-twitter text-dark mx-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+
+
+<!-- Footer Section -->
+<footer class="py-5 bg-dark text-white text-center">
+    <div class="container">
+        <p class="lead">Copyrigth &copy; 2021</p>
+        <a href="" class="position-absolute bottom-0 end-0 p">
+            <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+    </div>
+</footer>
+
+{% endblock %}

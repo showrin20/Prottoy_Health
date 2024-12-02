@@ -1,0 +1,155 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<section class='mt-5 container'>
+<div class="pt-5">
+    <h1 class="h3">Health Check</h1>
+    <hr>
+
+</div>
+</section>
+<section class="text-light p-4 dynamic-section text-black">
+    <div class='container dynamic-section'>
+        <div class = 'row'>
+            <div class="col-12 mb-3">
+                <form method="GET" action = "{% url 'result' %}">
+                    
+                    
+                    
+                    <div class="row gy-lg-3 gy-5">
+                        <div class="col-2">
+                            <div class="form-group row">
+                                    <label for="inputPassword" class="col-4 col-form-label">Age :</label>
+                                    <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="inputPassword" placeholder="Age" name="age">
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-10">
+                            <label for="inputPassword" class="mx-2 col-form-label">Gender :</label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="gender" id="inlineRadio1" value="1">
+                                <label class="form-check-label" for="inlineRadio1">Male</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="gender" id="inlineRadio2" value="0">
+                                <label class="form-check-label" for="inlineRadio2">Female</label>
+                              </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="form-group row">
+                                    <label for="inputPassword" class="col-4 col-form-label">CP :</label>
+                                    <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="inputPassword" placeholder="CP" name="cp">
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-2 mx-2">
+                            <div class="form-group row">
+                                    <label for="inputPassword" class="col-6 col-form-label">TrestBPS:</label>
+                                    <div class="col-sm-6">
+                                    <input type="text" class="form-control" id="inputPassword" placeholder="CP" name="trestbps">
+                                    </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-2">
+                            <div class="form-group row">
+                                    <label for="inputPassword" class="col-4 col-form-label">Chol :</label>
+                                    <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="inputPassword" placeholder="CP" name="chol">
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="form-group row">
+                                    <label for="inputPassword" class="col-6 col-form-label">RestECG :</label>
+                                    <div class="col-sm-6">
+                                    <input type="text" class="form-control" id="inputPassword" placeholder="CP" name="restecg">
+                                    </div>
+                            </div>
+                        </div>
+                        <div></div>
+
+                        <div class="col-xl-6 pt-3 h-100">
+                            <p class='h5 h-100'>REST ECG?</p>
+                            <select class="form-select " aria-label="Default select example" name="restecg">
+                                    
+                                <option selected>Select</option>
+                                    <option value="1">Yes</option>
+                                    <option value="0">No</option>
+                            </select>
+                            
+
+                        </div>
+                        <div class="col-xl-6 pt-3 h-100">
+                            <p class="h5 h-100 pb-xl-4">FBS?</p>
+                            <select class="form-select " aria-label="Default select example" name="fbs">
+                                    
+                                <option selected>Select</option>
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                            </select>
+                            
+
+                        </div>
+                        <div class="col-xl-6 pt-3 h-100">
+                            <p class="h5" >Do you have redness or flaky skin in the nipple area or the breast?</p>
+                            <select class="form-select " aria-label="Default select example" name="class">
+                                    
+                                <option selected>Select</option>
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                                
+                            </select>
+                            
+
+                        </div>
+                        <div class="col-xl-6 pt-3 h-100">
+                            <p class="h5" >Do you have Pulling in of the nipple or pain in the nipple area?</p>
+                            <select class="form-select " aria-label="Default select example" name="class">
+                                    
+                                <option selected>Select</option>
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                                
+                            </select>
+                            
+
+                        </div>
+                        <div class="col-xl-6 pt-3 h-100">
+                            <p class="h5" >Does your nipple discharge other than breast milk, including blood?</p>
+                            <select class="form-select " aria-label="Default select example" name="class">
+                                    
+                                <option selected>Select</option>
+                                <option value="1">Yes</option>
+                                <option value="0">No</option>
+                                
+                            </select>
+                            
+
+                        </div>
+                        <div class="col ">
+                            
+                                <div class="mt-4 mx-auto w-25">
+                                <button type="submit" class="btn btn-dark w-100">Submit</button>
+                                </div>
+                            
+
+                        </div>
+                                <!-- <div class="col-6">
+
+                                <input type="text" class="form-control mx-2" id="inputPassword2" placeholder="Search here" name='searched'>
+                                </div>
+                                <div class="col-auto">
+                                <button type="submit" class="btn btn-dark my-3 float-end w-25">Search</button>
+                                </div> -->
+                        
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</section>
+{% endblock %}

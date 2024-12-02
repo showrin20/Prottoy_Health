@@ -1,0 +1,70 @@
+/* body::before{
+    display: block;
+    content:'';
+    height: 18px;
+} */
+.dynamic-text-2{
+    animation-name: dynamic-text-2;
+    animation-duration: 2s;
+    
+}
+@keyframes dynamic-text-2{
+    0% {opacity:0;}
+    25% {opacity:0}
+    50% {opacity: 0.0;}
+    100% {opacity:1;}
+
+}
+.btn-dynamic{
+    animation-name:btn-dynamic;
+    animation-duration: 2s;
+    
+}
+@keyframes btn-dynamic {
+    0%{transform:scale(0.8);}
+    50%{transform:scale(1.5);}
+    75%{transform:rotateX(180deg)}
+    100%{transform:scale(1);}
+    
+}
+nav{
+    z-index: 50;
+    transition: 0.5s;
+}
+
+
+/* .dynamic-section{
+    animation-name: dynamic-section;
+    animation-duration: 2s;
+    position: relative;
+}
+@keyframes dynamic-section{
+    0%{top:-2000px;transform:scale(0.5)}
+    100%{top:0px;transform:scale(1)}
+} */
+
+.med-img {
+    position:relative;
+    top:0px;
+    left:70%;
+    opacity: 0.5;
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .nav-anime{
+        background-color: rgb(123, 207, 182,1);
+        padding: 5px 100px;
+        transition: 0.5s;
+    
+    }
+  }
+
+@media only screen and (max-width: 1200px) {
+    .nav-anime {
+        background-color: rgb(123, 207, 182,1);
+        transition: 0.5s;
+        padding: 50px 1%;
+    }
+  }

@@ -1,0 +1,53 @@
+{% load static %}
+    <nav class="navbar navbar-expand-xl py-2 fixed-top navbar-light  " >
+    
+        <div class='container-fluid h6 pt-1'>
+            
+            <div>
+                <a href="{% url 'home' %}" target='blank' class="navbar-brand px-4">PROTTOY <span style="color:rgb(125,23,205)">HEALTH</span></a>
+
+                <a href='#' class="text-primary bg-light border px-2 mx-1 py-1 rounded-circle font-primary"><i class="bi bi-facebook"></i></a>
+                <a href='#' class="text-primary bg-light border px-2 mx-1 py-1 rounded-circle font-primary"><i class="bi bi-instagram"></i></a>
+                <a href='#' class="text-primary bg-light border px-2 mx-1 py-1 rounded-circle font-primary"><i class="bi bi-twitter"></i></a>
+            </div>
+            <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarmenu'>
+                <span class='navbar-toggler-icon'></span>
+            </button>
+            <div class='collapse navbar-collapse' id='navbarmenu'>
+                <ul class='navbar-nav ms-auto '>
+                    <li class='nav-item'>
+                        <a href="{% url 'home' %}" class="nav-link">Home</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a href="{% url 'checkup' %}" class="nav-link">Checkup</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a href="#question" class="nav-link">FAQ</a>
+                    </li>
+                    <li class='nav-item'>
+                        <a href="#question" class="nav-link">Contact</a>
+                    </li>
+                    {% if user.is_authenticated %}
+                        <li class="nav-item dropdown">
+                            <a class="active btn btn-light text-primary nav-link dropdown-toggle  mx-3 rounded-pill" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class='px-4'>{{request.user.first_name}}</span>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <li><hr class="dropdown-divider bg-primary py-1"></li>
+                            <li><a class="dropdown-item" href="{% url 'signOut' %}">Sign Out</a></li>
+                            </ul>
+                        </li>
+                    {% else %}
+                    <li class='nav-item'>
+                        <a href="{% url 'signIn' %}"><button class = 'btn btn-primary mx-lg-4 px-5 py-2 rounded shadow-lg'>Sign in</button></a>
+                        <!-- <a href="#" class="nav-link">Sign In</a> -->
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+    
+        </div>
+        <hr>
+    </nav>
