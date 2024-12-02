@@ -1,6 +1,6 @@
 # Prottoy Health
 
-![1](images/Prottoy Health.png)
+![Prottoy Health](images/Prottoy%20Health.png)
 
 In Bangladesh, many individuals fail to undergo regular medical check-ups, a practice recommended by health experts to maintain a healthy lifestyle. Specifically, it is suggested to have check-ups once a year if over the age of 50, and once every three years for younger, healthy individuals. Unfortunately, this lack of regular health assessments has led to an increase in undetected malignant diseases such as breast cancer and skin cancer.  
 
