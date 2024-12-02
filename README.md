@@ -40,6 +40,42 @@ Prottoy Health is a step toward a healthier future, enabling individuals to take
 
 
 
+# **Medical Assistant Application with Inclusive Design**  
+
+![Prottoy Health](images/neu2.gif)
+
+
+**Objective:**  
+To create a medical assistant application that not only supports users in managing their medical data but also incorporates features to address neurodivergent users' specific needs, ensuring accessibility and inclusivity for all.  
+
+
+### **Inclusive Features for Neurodivergent Users**  
+
+#### 1. **Tailored Insights for Neurodivergent Conditions**  
+- **ADHD and Autism Support:** Recognizes common co-occurring conditions in neurodivergent individuals, offering detailed comparisons to help users monitor changes in symptoms and health.  
+- **Condition Awareness:** Provides accessible explanations for conditions like ADHD, autism, and migraines, which are prevalent among neurodivergent individuals.  
+
+#### 2. **Accessible Design**  
+- **Simplified UI/UX:** Features clear, minimalistic design elements and customizable navigation for ease of use, especially for individuals with ADHD or sensory sensitivities.  
+- **Visual Aids:** Incorporates charts, graphs, and icons for a more intuitive understanding of medical data.  
+
+#### 3. **Gender-Specific Insights**  
+- Acknowledges gender-based differences in neurodivergent conditions, addressing the higher prevalence of ADHD and autism in males while accounting for the subtler presentation in females, who are often underdiagnosed.  
+- Provides targeted insights and reminders tailored to user demographics, ensuring a more personalized experience.  
+
+#### 4. **Supportive Notifications and Reminders**  
+- Regular notifications for routine health check-ups and medication tracking, catering to users who may struggle with memory or organization.  
+- Friendly, non-intrusive reminders for users with ADHD or autism to encourage proactive health management.  
+
+### **Impact**  
+This application not only bridges the gap in healthcare accessibility in Bangladesh but also addresses a significant need for inclusivity in medical technology. By focusing on neurodivergent-friendly design and personalized insights, it aims to empower all users—neurotypical and neurodivergent alike—to take charge of their health confidently.  
+
+**Potential Use Cases:**  
+- Early detection of conditions through regular monitoring and analysis.  
+- Empowering rural and non-native speakers with Bangla translations and user-friendly interfaces.  
+- Providing neurodivergent individuals with accessible and personalized medical insights to manage their unique health challenges effectively.  
+
+
 
 
 
