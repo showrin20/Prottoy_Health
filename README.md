@@ -36,7 +36,6 @@ Prottoy Health is a step toward a healthier future, enabling individuals to take
 ![Prottoy Health](images/Prottoy%20Health_13.jpg)
 ![Prottoy Health](images/Prottoy%20Health_14.jpg)
 ![Prottoy Health](images/Prottoy%20Health_15.jpg)
-![Prottoy Health](images/Prottoy%20Health_16.jpg)
 
 
 
