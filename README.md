@@ -67,6 +67,10 @@ To create a medical assistant application that not only supports users in managi
 - Regular notifications for routine health check-ups and medication tracking, catering to users who may struggle with memory or organization.  
 - Friendly, non-intrusive reminders for users with ADHD or autism to encourage proactive health management.  
 
+![Prottoy Health](images/neu.gif)
+
+
+
 ### **Impact**  
 This application not only bridges the gap in healthcare accessibility in Bangladesh but also addresses a significant need for inclusivity in medical technology. By focusing on neurodivergent-friendly design and personalized insights, it aims to empower all users—neurotypical and neurodivergent alike—to take charge of their health confidently.  
 
